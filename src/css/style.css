@@ -4,7 +4,7 @@ body{
 nav{
 	width: 100%;
 	height: 100px;
-	background: #CC0D0D;
+	background: #427b7f;
 }
 .logo{
 	color: yellow;
@@ -30,20 +30,25 @@ nav{
 .main{
 	width: 100%;
 	height: 100%;
-	background-image: url("../img/sky.jpg");
+	background: url("../img/бок1.png") 100% 100%/ auto 100% no-repeat, url("../img/розовыйфон.jpg");
 }
 
 .title__container{
 	float: left;
 	margin: 250px 0px 0px 300px;
 }
+.title__container img{
+
+}
 .title__container h1{
 	font-size: 60px;
 	font-weight: bold;
+	text-shadow: 1px 1px 5px black;
 }
 .title__container h2{
 	font-size: 35px;
 	margin-top: 15px;
+	text-shadow: 1px 1px 3px black;
 }
 .title__container input{
 	height: 40px;
@@ -51,7 +56,8 @@ nav{
 	border: 2px solid yellow;
 	background: yellow;
 	border-radius: 12px;
-	font-size: 15px;
+	font-size: 20px;
 	padding: 0px 30px;
 	margin: 30px 15px 0px 15px;
+	box-shadow: 1px 1px 25px orangered;
 }
